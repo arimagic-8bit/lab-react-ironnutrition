@@ -10,9 +10,6 @@ class SearchBar extends Component {
         let value = e.target.value
         
         this.setState({searchbar:value}, () => {this.props.searchFood(value)})
-
-        console.log(
-            value ,this.state.searchbar, this.props)
     }
 
   
